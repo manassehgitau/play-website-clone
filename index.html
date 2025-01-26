@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Play</title>
+  <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body class="m-0 p-0 bg-origin-border font-sans">
+  <header class="fixed t-0 w-screen">
+    <nav class="navbar flex flex-row justify-around items-center bg-[#3758f9] text-lg px-5 py-4">
+      <div class="nav-img">
+        <img src="./assets/logo-white.svg" alt="Play Logo" class="object-cover">
+      </div>
+      <div class="nav-items text-white">
+        <ul class="flex flex-row justify-around items-center text-md text-center">
+          <li><a href="#" class="text-xl px-3 hover:text-[#9ca3af] transition-colors duration-300">Home</a></li>
+          <li><a href="#" class="text-xl px-3 hover:text-[#9ca3af] transition-colors duration-300">About</a></li>
+          <li><a href="#" class="text-xl px-3 hover:text-[#9ca3af] transition-colors duration-300">Pricing</a></li>
+          <li><a href="#" class="text-xl px-3 hover:text-[#9ca3af] transition-colors duration-300">Team</a></li>
+          <li><a href="#" class="text-xl px-3 hover:text-[#9ca3af] transition-colors duration-300">Contact</a></li>
+          <li><a href="#" class="text-xl px-3 hover:text-[#9ca3af] transition-colors duration-300">Blog</a></li>
+          <li><a href="#" class="text-xl px-3 hover:text-[#9ca3af] transition-colors duration-300">Pages</a></li>
+        </ul>
+      </div>
+      <div class="login-in">
+        <button class="text-white py-3 px-4 hover:text-[#9ca3af]">Sign in</button>
+        <button
+          class="text-white py-3  px-4 bg-[#5f79fa] rounded-xl hover:bg-white hover:text-black transition-colors duration-300">sign
+          up</button>
+      </div>
+    </nav>
+  </header>
+
+  <section class="hero pt-17">
+    <div class="hero-details flex flex-col content-center bg-[#3758f9] text-white h-9/10 pt-10">
+      <h3 class="self-center  max-w-3xl  flex-wrap px-5 text-5xl font-bold pt-10 pb-6 leading-16">Open-Source Web
+        Template for
+        SaaS, Startup, Apps, and More</h3>
+      <p class="self-center font-normal max-w-7md text-lg text-center">Multidisciplinary Web Template Built with Your
+        Favourite Technology</p>
+      <p class="self-center font-normal max-w-7md text-lg text-center mb-8">- HTML Bootstrap, Tailwind and React NextJS.
+      </p>
+
+      <div class="hero-buttons flex items-center justify-center mb-8">
+        <button
+          class="bg-white text-black text-md font-medium px-5 py-3 rounded-lg mr-5 hover:text-[#9ca3af] transition-colors duration-300">Download
+          Now</button>
+        <button
+          class="bg-[#5f79fa] text-white text-md font-medium px-5 py-3 rounded-lg ml-5 hover:bg-white hover:text-black transition-colors duration-300"><i
+            class="fa-brands fa-github"></i> Star on Github</button>
+      </div>
+
+      <div class="technologies-used flex flex-row items-center justify-center">
+        <p class="text-[#d9faff] p-3 text-2md text-center font-semibold">Built with latest technology</p>
+      </div>
+
+      <div class="icons">
+        <ul class="icon flex flex-row justify-center content-center">
+          <li><a href="#" class="text-4xl text-[#afbcfd] hover:text-white transition-colors duration-300 px-3"><i
+                class="fa-brands fa-bootstrap"></i></a></li>
+          <li><a href="#" class="text-4xl text-[#afbcfd] hover:text-white transition-colors duration-300 px-3"><i
+                class="fa-brands fa-css"></i></a></li>
+          <li><a href="#" class="text-4xl text-[#afbcfd] hover:text-white transition-colors duration-300 px-3"><i
+                class="fa-brands fa-react"></i></a></li>
+          <li><a href="#" class="text-4xl text-[#afbcfd] hover:text-white transition-colors duration-300 px-3"><i
+                class="fa-brands fa-android"></i></a></li>
+          <li><a href="#" class="text-4xl text-[#afbcfd] hover:text-white transition-colors duration-300 px-3"><i
+                class="fa-brands fa-app-store-ios"></i></a></li>
+        </ul>
+      </div>
+      <div class="hero-image flex content-center justify-center mt-18 aspect-(16/9)">
+        <img src="./assets/hero-image.jpg" alt="An Image of a dashboard"
+          class="w-1/2 h-full self-end rounded-t-lg object-cover">
+      </div>
+    </div>
+  </section>
+
+  <section class="features mt-19 flex flex-column justify-center content-start text-center sm:my-10">
+    <div class="features-details">
+      <p class="text-[#3758f9] text-2xl font-semibold my-2">Features</p>
+      <h1 class="text-4xl font-bold mb-4 text-black">Main Features Of Play</h1>
+      <p class="mx-auto max-w-2xl text-md font-semibold text-[#7a8894] tracking-wide">There are many variations of
+        passages of
+        Lorem Ipsum available but the majority have suffered alteration in some form.</p>
+
+      <div class="features-icons mt-10 grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-10 my-auto text-left">
+        <div class="icon m-2">
+          <a href="#"
+            class="text-3xl bg-[#3758f9] text-white hover:text-[#9ca3af] p-4 rounded-xl transition-colors duration-300"><i
+              class="fa-solid fa-gift"></i></a>
+          <div class="icon-details">
+            <h3 class="mt-10 mb-3 text-xl font-bold">Free and Open-Source</h3>
+            <p class="max-w-sm text-[#7a8894] text-base font-semibold mb-8">Lorem ipsum dolor sit amet consectetur
+              adipisicing elit.</p>
+            <a href="#"
+              class="font-semibold text-md text-[#323232] tracking-wide hover:text-[#3758f9] transition-colors duration-300">Learn
+              More</a>
+          </div>
+        </div>
+        <div class="icon m-2">
+          <a href="#"
+            class="text-3xl bg-[#3758f9] text-white hover:text-[#9ca3af] p-4 rounded-xl transition-colors duration-300"><i
+              class="fa-solid fa-table-columns"></i></a>
+          <div class="icon-details">
+            <h3 class="mt-10 mb-3 text-xl font-bold">Multipurpose Template</h3>
+            <p class="max-w-sm text-[#7a8894] text-base font-semibold mb-8">Lorem ipsum dolor sit amet consectetur
+              adipisicing elit.</p>
+            <a href="#"
+              class="font-semibold text-md text-[#323232] tracking-wide hover:text-[#3758f9] transition-colors duration-300">Learn
+              More</a>
+          </div>
+        </div>
+        <div class="icon m-2">
+          <a href="#"
+            class="text-3xl bg-[#3758f9] text-white hover:text-[#9ca3af] p-4 rounded-xl transition-colors duration-300"><i
+              class="fa-solid fa-palette"></i></a>
+          <div class="icon-details">
+            <h3 class="mt-10 mb-3 text-xl font-bold">High-quality Design</h3>
+            <p class="max-w-sm text-[#7a8894] text-base font-semibold mb-8">Lorem ipsum dolor sit amet consectetur
+              adipisicing elit. </p>
+            <a href="#"
+              class="font-semibold text-md text-[#323232] tracking-wide hover:text-[#3758f9]  transition-colors duration-300">Learn
+              More</a>
+          </div>
+        </div>
+        <div class="icon m-2">
+          <a href="#"
+            class="text-3xl bg-[#3758f9] text-white hover:text-[#9ca3af] p-4 rounded-xl  transition-colors duration-300"><i
+              class="fa-solid fa-shapes"></i></a>
+          <div class="icon-details">
+            <h3 class="mt-10 mb-3 text-xl font-bold">All Essential Elements</h3>
+            <p class="max-w-sm text-[#7a8894] text-base font-semibold mb-8"
+              class="text-3xl bg-[#3758f9] text-white hover:text-[#9ca3af] p-5 rounded-xl transition-colors duration-300">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <a href="#"
+              class="font-semibold text-md text-[#323232] tracking-wide hover:text-[#3758f9]  transition-colors duration-300">Learn
+              More</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="about-details flex flex-row content-center justify-center mx-auto my-20 bg-[#f9fafb]">
+    <div class="flex flex-col gap-10 lg:flex-row mt-10">
+      <div class="details max-w-xl">
+        <h1 class="text-4xl font-bold mb-8 text-black">Brilliant Toolkit to Build Nextgen Website Faster.</h1>
+        <p class="text-[#7a8894] text-base font-semibold mb-5">The main 'thrust' is to focus on educating attendees on
+          how to best protect highly vulnerable business applications with interactive panel discussions and roundtables
+          led by subject matter experts.</p>
+        <p class="text-[#7a8894] text-base font-semibold mb-8">The main ‘thrust' is to focus on educating attendees on
+          how to best protect highly vulnerable business applications with interactive panel.</p>
+        <button
+          class="bg-[#3758f9] text-white text-md font-medium px-5 py-3 rounded-lg hover:bg-[#5f79fa] transition-colors duration-300">Know
+          More</button>
+      </div>
+      <div class="details-imgs flex flex-row gap-0 max-w-sm"></div>
+      <div class="img-grid grid grid-cols-2 grid-row-2  gap-5">
+        <img src="./assets/about-image-01.jpg" alt="People in  a boardroom" class="row-span-2 w-sm rounded-sm">
+        <img src="./assets/about-image-02.jpg" alt="two laptops on a table" class="row-span-1 w-xs rounded-sm">
+        <div
+          class="years-of-experience row-span-1 flex flex-col content-center bg-[#3758f9] w-xs py-7 px-20 rounded-sm">
+          <p class="text-3xl text-white font-bold my-1">09</p>
+          <p class="text-[#ffffff] text-md font-bold">We have</p>
+          <p class="text-[#c3cdfd] text-sm font-semibold my-1">Years of experience</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="my-5 py-24 bg-[#3758f9] text-white">
+    <div class="details flex flex-col justify-center text-center">
+      <h2 class="text-4xl font-bold mb-4">What are you looking for?</h2>
+      <h3 class="text-xl font-bold mb-4">Get Started now</h3>
+      <p class="text-[#ffffff] text-lg">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+      <p class="text-[#ffffff] text-lg mb-5">Nam quia odio quam dolorum necessitatibus?</p>
+    </div>
+    <div class="button flex flex-row justify-center">
+      <button
+        class="bg-[#13c296] text-md font-medium px-5 py-3 rounded-lg ml-5 hover:bg-white hover:text-black transition-colors duration-300">Start
+        using Play</button>
+    </div>
+  </section>
+
+  <section class="pricing mt-20 mb-20 flex flex-column justify-center content-start text-center sm:my-10 bg-[#f9fafb]">
+    <div class="pricing-details mb-20">
+      <p class="text-[#3758f9] text-2xl font-semibold my-2">Features</p>
+      <h1 class="text-4xl font-bold mb-4 text-black">Main Features Of Play</h1>
+      <p class="mx-auto max-w-2xl text-md font-semibold text-[#7a8894] tracking-wide">There are many variations of
+        passages of Lorem Ipsum available but the majority have suffered alteration in some form.</p>
+
+      <div
+        class="pricing-grid grid  xl:grid-cols-3 lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 gap-20 justify-center content-start mt-10 text-left">
+        <div class="price bg-[#ffffff] px-15 py-5 mx-5 shadow-xl rounded-xl">
+          <h2 class="mt-10 mb-3 text-xl font-semibold">Starter</h2>
+          <h3 class="text-md font-bold mt-1">$ <span class="text-4xl font-bold">25.00</span> <span
+              class="text-md text-[#637381]">Per Month</span></h3>
+
+          <h3 class="my-8 text-xl font-bold">Features</h3>
+          <ul class="list-features text-[#637381] text-lg ">
+            <li class="my-1">Up to 1 User</li>
+            <li class="my-1">All UI components</li>
+            <li class="my-1">Lifetime access</li>
+            <li class="my-1">Free updates</li>
+          </ul>
+          <div class="button my-6">
+            <button
+              class="bg-[#3758f9] text-white text-md font-medium px-5 py-3 rounded-lg hover:bg-white hover:text-black transition-colors duration-300">Purchase
+              Now</button>
+          </div>
+        </div>
+        <div class="price bg-[#ffffff] px-15 py-5 mx-5 shadow-xl rounded-xl">
+          <h2 class="mt-10 mb-3 text-xl font-semibold">Starter</h2>
+          <h3 class="text-md font-bold mt-1">$ <span class="text-4xl font-bold">25.00</span> <span
+              class="text-md text-[#637381]">Per Month</span></h3>
+
+          <h3 class="my-8 text-xl font-bold">Features</h3>
+          <ul class="list-features text-[#637381] text-lg ">
+            <li class="my-1">Up to 1 User</li>
+            <li class="my-1">All UI components</li>
+            <li class="my-1">Lifetime access</li>
+            <li class="my-1">Free updates</li>
+          </ul>
+          <div class="button my-6">
+            <button
+              class="bg-[#3758f9] text-white text-md font-medium px-5 py-3 rounded-lg hover:bg-white hover:text-black transition-colors duration-300">Purchase
+              Now</button>
+          </div>
+        </div>
+        <div class="price bg-[#ffffff] px-15 py-5 mx-5 shadow-xl rounded-xl">
+          <h2 class="mt-10 mb-3 text-xl font-semibold">Starter</h2>
+          <h3 class="text-md font-bold mt-1">$ <span class="text-4xl font-bold">25.00</span> <span
+              class="text-md text-[#637381]">Per Month</span></h3>
+
+          <h3 class="my-8 text-xl font-bold">Features</h3>
+          <ul class="list-features text-[#637381] text-lg ">
+            <li class="my-1">Up to 1 User</li>
+            <li class="my-1">All UI components</li>
+            <li class="my-1">Lifetime access</li>
+            <li class="my-1">Free updates</li>
+          </ul>
+          <div class="button my-6">
+            <button
+              class="bg-[#3758f9] text-white text-md font-medium px-5 py-3 rounded-lg hover:bg-white hover:text-black transition-colors duration-300">Purchase
+              Now</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="testimonials mt-20 flex flex-column justify-center content-start text-center sm:my-10 bg-[#f9fafb]">
+    <div class="main-testimonial mt-20">
+      <p class="text-[#3758f9] text-2xl font-semibold my-2">Features</p>
+      <h1 class="text-4xl font-bold mb-4 text-black">Main Features Of Play</h1>
+      <p class="mx-auto max-w-2xl text-md font-semibold text-[#7a8894] tracking-wide">There are many variations of
+        passages of Lorem Ipsum available but the majority have suffered alteration in some form.</p>
+
+      <div
+        class="testimonials-grid grid xl:mx-15 xl:grid-cols-3 lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 gap-10 justify-center content-start mt-10 text-left">
+        <div class="text-grid bg-[#ffffff] px-15 py-5 mx-5 shadow-xl rounded-xl">
+          <p class="text-lg pt-5 pb-7">⭐⭐⭐⭐⭐⭐</p>
+          <p class="text-md pb-7">
+            "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis facere quae minima quibusdam animi
+            cumque, repellat recusandae at nulla quod ."
+          </p>
+          <div class="flex flex-row justify-between pb-6">
+            <img src="./assets/author-01.jpg" alt="Charles Gitau" class="w-15">
+            <div class="flex flex-col justify-around">
+              <h3 class="text-lg font-bold">Manasseh Gitau</h3>
+              <p class="text-[#7a8894] foont-semibold">Founder @ Ayro UI</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="text-grid bg-[#ffffff] px-15 py-5 mx-5 shadow-xl rounded-xl">
+          <p class="text-lg pt-5 pb-7">⭐⭐⭐⭐⭐⭐</p>
+          <p class="text-md pb-7">
+            "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis facere quae minima quibusdam animi
+            cumque, repellat recusandae at nulla quod ."
+          </p>
+          <div class="flex flex-row justify-between pb-6">
+            <img src="./assets/author-01.jpg" alt="Charles Gitau" class="w-15">
+            <div class="flex flex-col justify-around">
+              <h3 class="text-lg font-bold">Manasseh Gitau</h3>
+              <p class="text-[#7a8894] foont-semibold">Founder @ Ayro UI</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="text-grid bg-[#ffffff] px-15 py-5 mx-5 shadow-xl rounded-xl">
+          <p class="text-lg pt-5 pb-7">⭐⭐⭐⭐⭐⭐</p>
+          <p class="text-md pb-7">
+            "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis facere quae minima quibusdam animi
+            cumque, repellat recusandae at nulla quod ."
+          </p>
+          <div class="flex flex-row justify-between pb-6">
+            <img src="./assets/author-01.jpg" alt="Charles Gitau" class="w-15">
+            <div class="flex flex-col justify-around">
+              <h3 class="text-lg font-bold">Manasseh Gitau</h3>
+              <p class="text-[#7a8894] foont-semibold">Founder @ Ayro UI</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="arrows my-7">
+        <button type="dii" class="left-arrow px-4 py-2 shadow mx-2 rounded-md cursor-pointer hover:bg-[#3758f9] hover:text-white transition-colors duration-300">
+          <i class="fa-solid fa-arrow-left"></i>
+        </button>
+  
+        <button class="right-arrow px-4 py-2 shadow mx-2 rounded-md cursor-pointer disabled hover:bg-[#3758f9] hover:text-white transition-colors duration-300">
+          <i class="fa-solid fa-arrow-right"></i>
+        </button>
+      </div>
+  </section>
+
+  <section class="faqs mt-20 flex flex-column justify-center content-start text-center sm:my-10 bg-[#f9fafb]">
+    <div class="main-faqs mb-20">
+      <p class="text-[#3758f9] text-2xl font-semibold my-2">Features</p>
+      <h1 class="text-4xl font-bold mb-4 text-black">Main Features Of Play</h1>
+      <p class="mx-auto max-w-2xl text-md font-semibold text-[#7a8894] tracking-wide">There are many variations of
+        passages of Lorem Ipsum available but the majority have suffered alteration in some form.</p>
+
+        <div class="faqs-grid grid xl:grid-cols-2 lg:grid-cols-2 md:grid-cols-1 sm:grid-cols-1 gap-10 justify-center content-start mt-10 text-left">
+          <div class="faq flex flex-row justify-between gap-10 md:my-7 sm:my-7">
+            <div class="faq-icon">
+              <a href="#" class="bg-[#3758f9] text-white p-5 rounded-2xl text-8xl"><i class="fa-regular fa-circle-question"></i></a>
+            </div>
+            <div class="faq-details">
+              <h4 class="text-2xl font-bold mb-4">Is TailGrids Well-documented?</h4>
+              <p class="max-w-xl text-md text-[#7a8894]">
+                It takes 2-3 weeks to get your first blog post ready. 
+                That includes the in-depth research & creation of your monthly content 
+                ui/ux strategy that we do writing your first blog post.
+              </p>
+            </div>
+          </div>
+
+          <div class="faq flex flex-row justify-between gap-10 md:my-7 sm:my-7">
+            <div class="faq-icon">
+              <a href="#" class="bg-[#3758f9] text-white p-5 rounded-2xl text-8xl"><i class="fa-regular fa-circle-question"></i></a>
+            </div>
+            <div class="faq-details">
+              <h4 class="text-2xl font-bold mb-4">Is TailGrids Well-documented?</h4>
+              <p class="max-w-xl text-md text-[#7a8894]">
+                It takes 2-3 weeks to get your first blog post ready. 
+                That includes the in-depth research & creation of your monthly content 
+                ui/ux strategy that we do writing your first blog post.
+              </p>
+            </div>
+          </div>
+
+          <div class="faq flex flex-row justify-between gap-10 md:my-7 sm:my-7">
+            <div class="faq-icon">
+              <a href="#" class="bg-[#3758f9] text-white p-5 rounded-2xl text-8xl"><i class="fa-regular fa-circle-question"></i></a>
+            </div>
+            <div class="faq-details">
+              <h4 class="text-2xl font-bold mb-4">Is TailGrids Well-documented?</h4>
+              <p class="max-w-xl text-md text-[#7a8894]">
+                It takes 2-3 weeks to get your first blog post ready. 
+                That includes the in-depth research & creation of your monthly content 
+                ui/ux strategy that we do writing your first blog post.
+              </p>
+            </div>
+          </div>
+          <div class="faq flex flex-row justify-between gap-10 md:my-7 sm:my-7">
+            <div class="faq-icon">
+              <a href="#" class="bg-[#3758f9] text-white p-5 rounded-2xl text-8xl"><i class="fa-regular fa-circle-question"></i></a>
+            </div>
+            <div class="faq-details">
+              <h4 class="text-2xl font-bold mb-4">Is TailGrids Well-documented?</h4>
+              <p class="max-w-xl text-md text-[#7a8894]">
+                It takes 2-3 weeks to get your first blog post ready. 
+                That includes the in-depth research & creation of your monthly content 
+                ui/ux strategy that we do writing your first blog post.
+              </p>
+            </div>
+          </div>
+        </div>
+    </div>
+  </section>
+
+  <section class="team mt-20 flex flex-column justify-center content-start text-center sm:my-10 bg-[#f9fafb]">
+    <div class="main-team">
+      <p class="text-[#3758f9] text-2xl font-semibold my-2">Features</p>
+      <h1 class="text-4xl font-bold mb-4 text-black">Main Features Of Play</h1>
+      <p class="mx-auto max-w-2xl text-md font-semibold text-[#7a8894] tracking-wide">There are many variations of
+        passages of Lorem Ipsum available but the majority have suffered alteration in some form.</p>
+
+        <div class="people-grid mt-20">
+          <div class="person flex flex-col jusitfy-center shadow my-8">
+            <div class="person-img flex flex-row justify-center">
+              <img src="./assets/team-01.png" alt="Melissa Tatcher" class="text-center">
+            </div>
+            <div class="person-details">
+              <h4 class="text-2xl font-bold my-2">Melissa Tatcher</h4>
+              <p class="text-[#7a8894] text-md">Marketing Expert</p>
+            </div>
+            <div class="socials mt-2 flex flex-col jusitfy-start"></div>
+            <a href="#" class="px-3"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#" class="px-3"><i class="fa-brands fa-x-twitter"></i></a>
+            <a href="#" class="px-3"><i class="fa-brands fa-instagram"></i></a>
+          </div>
+           
+        </div>
+    </div>
+  </section>
+</body>
+
+</html>
